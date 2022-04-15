@@ -4,7 +4,7 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "E:\\nodejs\\yarn_global\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "E:\\VSCode\\vuepress\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
@@ -25,6 +25,18 @@ export const routes = [
     redirect: "/Java/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B.html"
   },
   {
+    name: "v-58602bfe",
+    path: "/Java/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-58602bfe").then(next)
+    },
+  },
+  {
+    path: "/Java/index.html",
+    redirect: "/Java/"
+  },
+  {
     name: "v-6960f2c2",
     path: "/Java/Java%E9%9B%86%E5%90%88.html",
     component: GlobalLayout,
@@ -41,20 +53,16 @@ export const routes = [
     redirect: "/Java/Java%E9%9B%86%E5%90%88.html"
   },
   {
-    name: "v-3239f1db",
-    path: "/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html",
+    name: "v-782676b0",
+    path: "/Redis/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3239f1db").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-782676b0").then(next)
     },
   },
   {
-    path: "/Java/面向对象.html",
-    redirect: "/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
-  },
-  {
-    path: "/Java/面向对象.html",
-    redirect: "/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
+    path: "/Redis/index.html",
+    redirect: "/Redis/"
   },
   {
     name: "v-60e69aca",
@@ -69,24 +77,20 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-5c3f2240",
-    path: "/about.html",
+    name: "v-3239f1db",
+    path: "/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5c3f2240").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-3239f1db").then(next)
     },
   },
   {
-    name: "v-782676b0",
-    path: "/Redis/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-782676b0").then(next)
-    },
+    path: "/Java/面向对象.html",
+    redirect: "/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
   },
   {
-    path: "/Redis/index.html",
-    redirect: "/Redis/"
+    path: "/Java/面向对象.html",
+    redirect: "/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
   },
   {
     name: "v-199dc994",
@@ -121,18 +125,6 @@ export const routes = [
     redirect: "/http/HTTP%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9.html"
   },
   {
-    name: "v-1907ae84",
-    path: "/http/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1907ae84").then(next)
-    },
-  },
-  {
-    path: "/http/index.html",
-    redirect: "/http/"
-  },
-  {
     name: "v-2a45a31c",
     path: "/http/TCP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3.html",
     component: GlobalLayout,
@@ -147,6 +139,18 @@ export const routes = [
   {
     path: "/http/TCP协议详解.html",
     redirect: "/http/TCP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3.html"
+  },
+  {
+    name: "v-1907ae84",
+    path: "/http/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1907ae84").then(next)
+    },
+  },
+  {
+    path: "/http/index.html",
+    redirect: "/http/"
   },
   {
     name: "v-15fec9c2",
@@ -165,16 +169,12 @@ export const routes = [
     redirect: "/markdown/md%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html"
   },
   {
-    name: "v-58602bfe",
-    path: "/Java/",
+    name: "v-5c3f2240",
+    path: "/about.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-58602bfe").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5c3f2240").then(next)
     },
-  },
-  {
-    path: "/Java/index.html",
-    redirect: "/Java/"
   },
   {
     path: '*',

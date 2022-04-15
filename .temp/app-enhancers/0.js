@@ -1,2 +1,2 @@
-import "E:\\nodejs\\yarn_global\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
+import "E:\\VSCode\\vuepress\\node_modules\\@vuepress\\core\\lib\\node\\internal-plugins\\style\\client.js"
 export default {}

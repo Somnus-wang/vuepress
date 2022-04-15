@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/Somnus-wang/vuepress/issues"
   },
-  "homepage": "https://github.com/Somnus-wang/vuepress#readme"
+  "homepage": "https://github.com/Somnus-wang/vuepress#readme",
+  "dependencies": {
+    "@vssue/api-github-v4": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
+    "moment": "^2.29.2"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "vuepress": "^1.9.7"
+  }
 }
