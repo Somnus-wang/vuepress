@@ -21,4 +21,12 @@ module.exports = {
         autoCreateIssue: true,
     },
     '@vuepress/back-to-top': true,
+    "vuepress-plugin-auto-sidebar": {
+        output:{
+            filename:'config/sidebarConfig'
+        },
+        title:{
+            mode:"uppercase",
+        }
+    },
 }

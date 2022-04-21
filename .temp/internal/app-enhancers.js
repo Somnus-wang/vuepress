@@ -4,6 +4,7 @@ import m2 from "E:\\VSCode\\vuepress\\.temp\\app-enhancers\\global-components-1.
 import m3 from "E:\\VSCode\\vuepress\\.temp\\app-enhancers\\1.js"
 import m4 from "E:\\VSCode\\vuepress\\.temp\\app-enhancers\\2.js"
 import m5 from "E:\\VSCode\\vuepress\\.temp\\app-enhancers\\3.js"
+import m6 from "E:\\VSCode\\vuepress\\.temp\\app-enhancers\\auto-sidebar-enhance.js"
 
 export default [
   m0,
@@ -11,5 +12,6 @@ export default [
   m2,
   m3,
   m4,
-  m5
+  m5,
+  m6
 ]

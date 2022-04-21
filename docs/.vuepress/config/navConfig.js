@@ -1,31 +1,39 @@
-module.exports=[
+module.exports = [
     { text: '首页', link: '/' },
     { text: '关于作者', link: '/about' },
     {
+        text: '快速开始',
+        items: [
+            { text: 'MarkDown', link: '/get-start/markdown/md快速入门' },
+            { text: 'Vuepress', link: '/get-start/vuepress入门/vuepress快速上手' },
+        ]
+    },
+    {
         text: '计算机网络',
         items: [
-            { text: 'HTTP协议', link: '/http/HTTP常见知识点' },
-            { text: 'TCP协议', link: '/http/TCP协议详解' },
+            { text: 'HTTP协议', link: '/network/http/HTTP常见知识点' },
+            { text: 'TCP协议', link: '/network/tcp/TCP详解' },
         ]
     },
     {
         text: 'Java',
         items: [
-            { text: '面向对象', link: '/Java/面向对象' },
-            { text: 'Java集合', link: '/Java/Java集合' },
-            { text: 'Java多线程', link: '/Java/Java多线程' },
+            { text: 'Java基础', link: '/java/java基础/面向对象' },
+            { text: 'Java高级', link: '/java/java高级/Java集合' },
         ]
     },
     {
-        text: 'Redis',
+        text: '数据库',
         items: [
-            { text: 'Redis数据结构', link: '/Redis/Redis的数据结构' },
+            { text: 'MySQL', link: '/database/MySQL/MySQL简介' },
+            { text: 'Redis', link: '/database/Redis/Redis的数据结构' },
         ]
     },
     {
-        text: 'MySQL',
+        text: '云原生',
         items: [
-            { text: 'MySQL的索引', link: '/' },
+            { text: 'docker', link: '/cloudnative/docker/Docker入门' },
+            { text: 'kubernetes', link: '/cloudnative/kubernetes/kubernetes入门' },
         ]
     },
     {

@@ -15,4 +15,7 @@ features:
 footer: SCU Licensed | Copyright © 2022-present Somnus-wang & Lj-Z
 ---
 
-# Hello VuePress
+
+::: danger
+危险危险危险危险危险危险
+:::
