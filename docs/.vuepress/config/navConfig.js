@@ -20,6 +20,7 @@ module.exports = [
         items: [
             { text: 'Java基础', link: '/java/java基础/面向对象' },
             { text: 'Java高级', link: '/java/java高级/Java集合' },
+            { text: '设计模式', link: '/java/设计模式/单例模式' },
         ]
     },
     {

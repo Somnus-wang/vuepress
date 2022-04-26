@@ -57,6 +57,8 @@ module.exports = {
                 '面向对象',
                 'Java的变量',
                 'Java的数组',
+                '==和equals的区别',
+                'static关键字',
             ]
         },
     ],
@@ -68,6 +70,17 @@ module.exports = {
             "children": [
                 'Java集合',
                 'Java多线程',
+                'Tomcat详解',
+            ]
+        },
+    ],
+    "/java/设计模式": [
+        {
+            "title": '设计模式',
+            "collapsable": false,
+            "sidebarDepth": 1,
+            "children": [
+                '单例模式',
             ]
         },
     ],
