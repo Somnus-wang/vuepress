@@ -104,7 +104,7 @@ dist
 .tern-port
 
 # 隐藏私密信息
-secret.js
+# secret.js
 
 # 隐藏.temp
 .temp
