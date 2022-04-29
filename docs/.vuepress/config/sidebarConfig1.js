@@ -20,6 +20,7 @@ module.exports = {
                 'README',
                 'vuepress快速上手',
                 '使用docker部署vuepress',
+                'HTTP请求的Referrer-Policy字段',
             ]
         },
     ],

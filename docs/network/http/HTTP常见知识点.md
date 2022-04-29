@@ -2,7 +2,7 @@
 
 ## 1.HTTP常见的状态码
 
-![](https://cdn.jsdelivr.net/gh/xiaolincoder/ImageHost/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/HTTP/6-%E4%BA%94%E5%A4%A7%E7%B1%BBHTTP%E7%8A%B6%E6%80%81%E7%A0%81.png)
+![](https://cdn.jsdelivr.net/gh/xiaolincoder/ImageHost/计算机网络/HTTP/6-五大类HTTP状态码.png)
 
 ==1xx==：一般为提示信息，是协议处理的一种中间状态
 
@@ -202,7 +202,7 @@ HTTP/2 在一定程度上改善了传统的请求-应答模式，服务不再是
 
 
 
-### HTTP/2 存在的问题
+### ==HTTP/2 存在的问题==
 
 HTTP/2 通过stream的并发能力，解决了HTTP/1 队头阻塞的问题，但在TCP层面也存在问题。
 

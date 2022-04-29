@@ -9,6 +9,13 @@ module.exports = [
         ]
     },
     {
+        text: '操作系统',
+        items: [
+            { text: 'MarkDown', link: '/get-start/markdown/md快速入门' },
+            { text: 'Vuepress', link: '/get-start/vuepress入门/vuepress快速上手' },
+        ]
+    },
+    {
         text: '计算机网络',
         items: [
             { text: 'HTTP协议', link: '/network/http/HTTP常见知识点' },
@@ -16,7 +23,7 @@ module.exports = [
         ]
     },
     {
-        text: 'Java',
+        text: '前端',
         items: [
             { text: 'Java基础', link: '/java/java基础/面向对象' },
             { text: 'Java高级', link: '/java/java高级/Java集合' },
@@ -24,10 +31,29 @@ module.exports = [
         ]
     },
     {
-        text: '数据库',
+        text: '后端',
         items: [
+            { text: 'Java基础', link: '/java/java基础/面向对象' },
+            { text: 'Java高级', link: '/java/java高级/Java集合' },
+            { text: '设计模式', link: '/java/设计模式/单例模式' },
             { text: 'MySQL', link: '/database/MySQL/MySQL简介' },
             { text: 'Redis', link: '/database/Redis/Redis的数据结构' },
+        ]
+    },
+    {
+        text: '算法',
+        items: [
+            { text: 'Java基础', link: '/java/java基础/面向对象' },
+            { text: 'Java高级', link: '/java/java高级/Java集合' },
+            { text: '设计模式', link: '/java/设计模式/单例模式' },
+        ]
+    },
+    {
+        text: '面试',
+        items: [
+            { text: 'Java基础', link: '/java/java基础/面向对象' },
+            { text: 'Java高级', link: '/java/java高级/Java集合' },
+            { text: '设计模式', link: '/java/设计模式/单例模式' },
         ]
     },
     {

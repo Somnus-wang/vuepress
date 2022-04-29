@@ -1,6 +1,6 @@
 ---
 home: true
-# heroImage: /hero.png
+heroImage: /assets/img/123.png
 heroText: Somnus Space
 tagline: somnus的个人笔记
 actionText: 快速开始 →

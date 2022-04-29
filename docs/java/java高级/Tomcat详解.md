@@ -83,7 +83,7 @@ b/s  浏览器/服务器端
 
 ### Tomcat整体架构
 
-![Tomcat基本架构](https://img2020.cnblogs.com/blog/1928247/202007/1928247-20200722195633574-852188578.png)
+![Tomcat基本架构](https://gitee.com/Somnus-wang/picgo-drawing-bed/raw/master/1928247-20200722195633574-852188578.png)
 
 
 
@@ -138,7 +138,7 @@ Tomcat Request/Response与ServletRequest/ServletResponse的转化     ======》 
 
 Endpoint负责提供字节流给Processor，Processor负责提供Tomcat Request对象给Adapter， Adapter负责提供ServletRequest对象给容器
 
-![连接器的结构](https://img2020.cnblogs.com/blog/1928247/202007/1928247-20200722202410957-53516740.png)
+![连接器的结构](https://gitee.com/Somnus-wang/picgo-drawing-bed/raw/master/1928247-20200722202410957-53516740.png)
 
 
 
@@ -186,13 +186,13 @@ Mapper组件的功能就是将用户请求的URL定位到一个Servlet，它的�
 
 当一个请求到来时，Mapper组件通过解析请求URL里的域名和路径，再到自己保存的Map里去查找，就能定位到一个Servlet。一个请求URL最后只会定位到一个Wrapper容器，也就是一个Servlet
 
-![定位Servlet](https://img2020.cnblogs.com/blog/1928247/202007/1928247-20200722210138743-469594230.png)
+![定位Servlet](https://gitee.com/Somnus-wang/picgo-drawing-bed/raw/master/1928247-20200722210138743-469594230.png)
 
 
 
 ## Tomcat的启动流程
 
- ![Tomcat启动流程](https://img2020.cnblogs.com/blog/1928247/202007/1928247-20200723111417040-1354541951.png)
+ ![Tomcat启动流程](https://gitee.com/Somnus-wang/picgo-drawing-bed/raw/master/1928247-20200723111417040-1354541951.png)
 
 - Tomcat本质上是一个Java程序，因此startup.sh脚本会启动一个JVM来运行Tomcat的启动类Bootstrap
 - Bootstrap的主要任务是初始化Tomcat的类加载器，并且创建Catalina
