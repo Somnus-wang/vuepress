@@ -1,59 +1,48 @@
 module.exports = [
     { text: '首页', link: '/' },
     { text: '关于作者', link: '/about' },
-    {
-        text: '快速开始',
-        items: [
-            { text: 'MarkDown', link: '/get-start/markdown/md快速入门' },
-            { text: 'Vuepress', link: '/get-start/vuepress入门/vuepress快速上手' },
-        ]
-    },
+    //{ text: '快速开始', link: '/前端/Vuepress入门/vuepress快速上手' },
     {
         text: '操作系统',
         items: [
-            { text: 'MarkDown', link: '/get-start/markdown/md快速入门' },
-            { text: 'Vuepress', link: '/get-start/vuepress入门/vuepress快速上手' },
+            { text: '内存管理', link: '/' },
+            { text: '进程管理', link: '/' },
+            { text: '文件系统', link: '/' },
         ]
     },
     {
         text: '计算机网络',
         items: [
             { text: 'HTTP协议', link: '/network/http/HTTP常见知识点' },
-            { text: 'TCP协议', link: '/network/tcp/TCP详解' },
+            { text: 'TCP协议', link: '/network/tcp/TCP协议详解' },
         ]
     },
     {
         text: '前端',
         items: [
-            { text: 'Java基础', link: '/java/java基础/面向对象' },
-            { text: 'Java高级', link: '/java/java高级/Java集合' },
-            { text: '设计模式', link: '/java/设计模式/单例模式' },
+            { text: 'Vuepress', link: '/前端/Vuepress入门/vuepress快速上手' },
         ]
     },
     {
         text: '后端',
         items: [
-            { text: 'Java基础', link: '/java/java基础/面向对象' },
-            { text: 'Java高级', link: '/java/java高级/Java集合' },
-            { text: '设计模式', link: '/java/设计模式/单例模式' },
-            { text: 'MySQL', link: '/database/MySQL/MySQL简介' },
-            { text: 'Redis', link: '/database/Redis/Redis的数据结构' },
+            { text: 'Java', link: '/后端/Java/Java中的数组' },
+            { text: '设计模式', link: '/后端/设计模式/单例模式' },
+            { text: 'MySQL', link: '/后端/MySQL/MySQL简介' },
+            { text: 'Redis', link: '/后端/Redis/Redis的数据结构' },
+            { text: 'Web服务器', link: '/后端/Web服务器/Tomcat详解' },
         ]
     },
     {
         text: '算法',
         items: [
-            { text: 'Java基础', link: '/java/java基础/面向对象' },
-            { text: 'Java高级', link: '/java/java高级/Java集合' },
-            { text: '设计模式', link: '/java/设计模式/单例模式' },
+            { text: '排序算法', link: '/' },
         ]
     },
     {
         text: '面试',
         items: [
-            { text: 'Java基础', link: '/java/java基础/面向对象' },
-            { text: 'Java高级', link: '/java/java高级/Java集合' },
-            { text: '设计模式', link: '/java/设计模式/单例模式' },
+            { text: 'JVM八股文', link: '/'},
         ]
     },
     {

@@ -1,33 +1,21 @@
 module.exports = {
-    "/get-start/markdown": [
+    "/前端/Vuepress入门": [
         {
             "text":"markdown",
             "title": 'markdown基本语法',
             "collapsable": false,
             "sidebarDepth": 1,
             "children": [
-                'README',
                 'md快速入门',
-            ]
-        },
-    ],
-    "/get-start/vuepress入门": [
-        {
-            "title": 'markdown基本语法',
-            "collapsable": false,
-            "sidebarDepth": 1,
-            "children": [
-                'README',
-                'vuepress快速上手',
-                '使用docker部署vuepress',
                 'HTTP请求的Referrer-Policy字段',
+                '使用docker部署vuepress',
+                'Vuepress快速上手',
             ]
         },
     ],
     "/network/http": [
         {
             "title": 'HTTP详解',
-            "path": '/http/',
             "collapsable": false,
             "sidebarDepth": 1,
             "children": [
@@ -38,44 +26,32 @@ module.exports = {
     ],
     "/network/tcp": [
         {
-            "title": 'HTTP详解',
-            "path": '/http/',
+            "title": 'TCP详解',
             "collapsable": false,
             "sidebarDepth": 1,
             "children": [
-                'README',
-                'HTTP常见知识点',
+                'TCP协议详解',
             ]
         },
     ],
-    "/java/java基础": [
+    "/后端/Java": [
         {
             "title": 'Java基础',
             "text":'Java基础',
             "collapsable": false,
             "sidebarDepth": 1,
             "children": [
-                '面向对象',
                 'Java的变量',
-                'Java的数组',
-                '==和equals的区别',
-                'static关键字',
-            ]
-        },
-    ],
-    "/java/java高级": [
-        {
-            "title": 'Java高级',
-            "collapsable": false,
-            "sidebarDepth": 1,
-            "children": [
-                'Java集合',
                 'Java多线程',
-                'Tomcat详解',
+                'Java集合',
+                'static关键字',
+                '==和equals的区别',
+                '面向对象',
+                'Java中的数组',
             ]
         },
     ],
-    "/java/设计模式": [
+    "/后端/设计模式": [
         {
             "title": '设计模式',
             "collapsable": false,
@@ -85,29 +61,46 @@ module.exports = {
             ]
         },
     ],
-    "/database/MySQL":[
+    "/后端/MySQL": [
         {
-            "title": 'MySQL详解',
+            "title": 'MySQL',
             "collapsable": false,
             "sidebarDepth": 1,
             "children": [
-                'README',
-                '数据结构',
-                '增删改查',
-                '查询优化',
+                'MySQL简介',
             ]
         },
     ],
-    "/database/Redis":[
+    "/后端/Redis":[
         {
             "title": 'Redis详解',
             "collapsable": false,
             "sidebarDepth": 1,
             "children": [
                 'README',
-                '数据结构',
-                '基础架构',
                 '高可用',
+                '基础架构',
+                '数据结构',
+            ]
+        },
+    ],
+    "/后端/Web服务器":[
+        {
+            "title": 'Web服务器',
+            "collapsable": false,
+            "sidebarDepth": 1,
+            "children": [
+                'Tomcat详解',
+            ]
+        },
+    ],
+    "/面试/JVM":[
+        {
+            "title": 'JVM',
+            "collapsable": false,
+            "sidebarDepth": 1,
+            "children": [
+                'JVM运行时内存结构',
             ]
         },
     ],
@@ -118,9 +111,9 @@ module.exports = {
             "sidebarDepth": 1,
             "children": [
                 'README',
-                '简介',
-                '架构',
                 '实战',
+                '架构',
+                '简介',
             ]
         },
     ],
@@ -131,9 +124,9 @@ module.exports = {
             "sidebarDepth": 1,
             "children": [
                 'README',
-                '简介',
-                '架构',
                 '实战',
+                '架构',
+                '简介',
             ]
         },
     ],
