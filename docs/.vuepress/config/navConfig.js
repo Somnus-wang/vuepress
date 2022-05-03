@@ -31,6 +31,7 @@ module.exports = [
             { text: 'MySQL', link: '/后端/MySQL/MySQL简介' },
             { text: 'Redis', link: '/后端/Redis/Redis的数据结构' },
             { text: 'Web服务器', link: '/后端/Web服务器/Tomcat详解' },
+            { text: 'Shell', link: '/后端/Shell/Shell入门' },
         ]
     },
     {

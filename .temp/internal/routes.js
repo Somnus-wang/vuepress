@@ -9,6 +9,70 @@ import GlobalLayout from "E:\\VSCode\\vuepress\\node_modules\\@vuepress\\core\\l
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-60e69aca",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-60e69aca").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-2378275d",
+    path: "/cloudnative/docker/Docker%E5%85%A5%E9%97%A8.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2378275d").then(next)
+    },
+  },
+  {
+    path: "/cloudnative/docker/Docker入门.html",
+    redirect: "/cloudnative/docker/Docker%E5%85%A5%E9%97%A8.html"
+  },
+  {
+    path: "/cloudnative/docker/Docker入门.html",
+    redirect: "/cloudnative/docker/Docker%E5%85%A5%E9%97%A8.html"
+  },
+  {
+    name: "v-5c3f2240",
+    path: "/about.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5c3f2240").then(next)
+    },
+  },
+  {
+    name: "v-b2baac44",
+    path: "/network/http/HTTP%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b2baac44").then(next)
+    },
+  },
+  {
+    path: "/network/http/HTTP常见知识点.html",
+    redirect: "/network/http/HTTP%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9.html"
+  },
+  {
+    path: "/network/http/HTTP常见知识点.html",
+    redirect: "/network/http/HTTP%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9.html"
+  },
+  {
+    name: "v-103622ea",
+    path: "/network/http/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-103622ea").then(next)
+    },
+  },
+  {
+    path: "/network/http/index.html",
+    redirect: "/network/http/"
+  },
+  {
     name: "v-24bc244c",
     path: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/HTTP%E8%AF%B7%E6%B1%82%E7%9A%84Referrer-Policy%E5%AD%97%E6%AE%B5.html",
     component: GlobalLayout,
@@ -41,20 +105,20 @@ export const routes = [
     redirect: "/network/tcp/TCP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3.html"
   },
   {
-    name: "v-a2eb87ea",
-    path: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/md%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html",
+    name: "v-0ce54222",
+    path: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/vuepress%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a2eb87ea").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0ce54222").then(next)
     },
   },
   {
-    path: "/前端/Vuepress入门/md快速入门.html",
-    redirect: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/md%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html"
+    path: "/前端/Vuepress入门/vuepress快速上手.html",
+    redirect: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/vuepress%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html"
   },
   {
-    path: "/前端/Vuepress入门/md快速入门.html",
-    redirect: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/md%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html"
+    path: "/前端/Vuepress入门/vuepress快速上手.html",
+    redirect: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/vuepress%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html"
   },
   {
     name: "v-07a480f8",
@@ -73,6 +137,22 @@ export const routes = [
     redirect: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/%E4%BD%BF%E7%94%A8docker%E9%83%A8%E7%BD%B2vuepress.html"
   },
   {
+    name: "v-6f7c927a",
+    path: "/%E5%90%8E%E7%AB%AF/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6f7c927a").then(next)
+    },
+  },
+  {
+    path: "/后端/Java/==和equals的区别.html",
+    redirect: "/%E5%90%8E%E7%AB%AF/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html"
+  },
+  {
+    path: "/后端/Java/==和equals的区别.html",
+    redirect: "/%E5%90%8E%E7%AB%AF/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html"
+  },
+  {
     name: "v-4785b47b",
     path: "/%E5%90%8E%E7%AB%AF/Java/Java%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84.html",
     component: GlobalLayout,
@@ -89,36 +169,36 @@ export const routes = [
     redirect: "/%E5%90%8E%E7%AB%AF/Java/Java%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84.html"
   },
   {
-    name: "v-0ce54222",
-    path: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/vuepress%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html",
+    name: "v-04f476dd",
+    path: "/cloudnative/kubernetes/kubernetes%E5%85%A5%E9%97%A8.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0ce54222").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-04f476dd").then(next)
     },
   },
   {
-    path: "/前端/Vuepress入门/vuepress快速上手.html",
-    redirect: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/vuepress%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html"
+    path: "/cloudnative/kubernetes/kubernetes入门.html",
+    redirect: "/cloudnative/kubernetes/kubernetes%E5%85%A5%E9%97%A8.html"
   },
   {
-    path: "/前端/Vuepress入门/vuepress快速上手.html",
-    redirect: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/vuepress%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B.html"
+    path: "/cloudnative/kubernetes/kubernetes入门.html",
+    redirect: "/cloudnative/kubernetes/kubernetes%E5%85%A5%E9%97%A8.html"
   },
   {
-    name: "v-6f7c927a",
-    path: "/%E5%90%8E%E7%AB%AF/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html",
+    name: "v-a2eb87ea",
+    path: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/md%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6f7c927a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a2eb87ea").then(next)
     },
   },
   {
-    path: "/后端/Java/==和equals的区别.html",
-    redirect: "/%E5%90%8E%E7%AB%AF/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html"
+    path: "/前端/Vuepress入门/md快速入门.html",
+    redirect: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/md%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html"
   },
   {
-    path: "/后端/Java/==和equals的区别.html",
-    redirect: "/%E5%90%8E%E7%AB%AF/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html"
+    path: "/前端/Vuepress入门/md快速入门.html",
+    redirect: "/%E5%89%8D%E7%AB%AF/Vuepress%E5%85%A5%E9%97%A8/md%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8.html"
   },
   {
     name: "v-225eb47d",
@@ -153,6 +233,38 @@ export const routes = [
     redirect: "/%E5%90%8E%E7%AB%AF/Java/Java%E7%9A%84%E5%8F%98%E9%87%8F.html"
   },
   {
+    name: "v-274479b0",
+    path: "/%E5%90%8E%E7%AB%AF/Shell/Shell%E5%85%A5%E9%97%A8.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-274479b0").then(next)
+    },
+  },
+  {
+    path: "/后端/Shell/Shell入门.html",
+    redirect: "/%E5%90%8E%E7%AB%AF/Shell/Shell%E5%85%A5%E9%97%A8.html"
+  },
+  {
+    path: "/后端/Shell/Shell入门.html",
+    redirect: "/%E5%90%8E%E7%AB%AF/Shell/Shell%E5%85%A5%E9%97%A8.html"
+  },
+  {
+    name: "v-2cf56629",
+    path: "/%E5%90%8E%E7%AB%AF/Java/Java%E9%9B%86%E5%90%88.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-2cf56629").then(next)
+    },
+  },
+  {
+    path: "/后端/Java/Java集合.html",
+    redirect: "/%E5%90%8E%E7%AB%AF/Java/Java%E9%9B%86%E5%90%88.html"
+  },
+  {
+    path: "/后端/Java/Java集合.html",
+    redirect: "/%E5%90%8E%E7%AB%AF/Java/Java%E9%9B%86%E5%90%88.html"
+  },
+  {
     name: "v-92ac3770",
     path: "/%E5%90%8E%E7%AB%AF/Java/",
     component: GlobalLayout,
@@ -173,22 +285,6 @@ export const routes = [
     redirect: "/%E5%90%8E%E7%AB%AF/Java/"
   },
   {
-    name: "v-2cf56629",
-    path: "/%E5%90%8E%E7%AB%AF/Java/Java%E9%9B%86%E5%90%88.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2cf56629").then(next)
-    },
-  },
-  {
-    path: "/后端/Java/Java集合.html",
-    redirect: "/%E5%90%8E%E7%AB%AF/Java/Java%E9%9B%86%E5%90%88.html"
-  },
-  {
-    path: "/后端/Java/Java集合.html",
-    redirect: "/%E5%90%8E%E7%AB%AF/Java/Java%E9%9B%86%E5%90%88.html"
-  },
-  {
     name: "v-8f813e68",
     path: "/%E5%90%8E%E7%AB%AF/Java/Shell%E5%85%A5%E9%97%A8.html",
     component: GlobalLayout,
@@ -203,22 +299,6 @@ export const routes = [
   {
     path: "/后端/Java/Shell入门.html",
     redirect: "/%E5%90%8E%E7%AB%AF/Java/Shell%E5%85%A5%E9%97%A8.html"
-  },
-  {
-    name: "v-94abd342",
-    path: "/%E5%90%8E%E7%AB%AF/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-94abd342").then(next)
-    },
-  },
-  {
-    path: "/后端/Java/面向对象.html",
-    redirect: "/%E5%90%8E%E7%AB%AF/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
-  },
-  {
-    path: "/后端/Java/面向对象.html",
-    redirect: "/%E5%90%8E%E7%AB%AF/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
   },
   {
     name: "v-ae4fc858",
@@ -253,84 +333,20 @@ export const routes = [
     redirect: "/%E5%90%8E%E7%AB%AF/MySQL/MySQL%E7%AE%80%E4%BB%8B.html"
   },
   {
-    name: "v-60e69aca",
-    path: "/",
+    name: "v-94abd342",
+    path: "/%E5%90%8E%E7%AB%AF/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-60e69aca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-94abd342").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    path: "/后端/Java/面向对象.html",
+    redirect: "/%E5%90%8E%E7%AB%AF/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
   },
   {
-    name: "v-5c3f2240",
-    path: "/about.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5c3f2240").then(next)
-    },
-  },
-  {
-    name: "v-2378275d",
-    path: "/cloudnative/docker/Docker%E5%85%A5%E9%97%A8.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2378275d").then(next)
-    },
-  },
-  {
-    path: "/cloudnative/docker/Docker入门.html",
-    redirect: "/cloudnative/docker/Docker%E5%85%A5%E9%97%A8.html"
-  },
-  {
-    path: "/cloudnative/docker/Docker入门.html",
-    redirect: "/cloudnative/docker/Docker%E5%85%A5%E9%97%A8.html"
-  },
-  {
-    name: "v-103622ea",
-    path: "/network/http/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-103622ea").then(next)
-    },
-  },
-  {
-    path: "/network/http/index.html",
-    redirect: "/network/http/"
-  },
-  {
-    name: "v-04f476dd",
-    path: "/cloudnative/kubernetes/kubernetes%E5%85%A5%E9%97%A8.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-04f476dd").then(next)
-    },
-  },
-  {
-    path: "/cloudnative/kubernetes/kubernetes入门.html",
-    redirect: "/cloudnative/kubernetes/kubernetes%E5%85%A5%E9%97%A8.html"
-  },
-  {
-    path: "/cloudnative/kubernetes/kubernetes入门.html",
-    redirect: "/cloudnative/kubernetes/kubernetes%E5%85%A5%E9%97%A8.html"
-  },
-  {
-    name: "v-b2baac44",
-    path: "/network/http/HTTP%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b2baac44").then(next)
-    },
-  },
-  {
-    path: "/network/http/HTTP常见知识点.html",
-    redirect: "/network/http/HTTP%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9.html"
-  },
-  {
-    path: "/network/http/HTTP常见知识点.html",
-    redirect: "/network/http/HTTP%E5%B8%B8%E8%A7%81%E7%9F%A5%E8%AF%86%E7%82%B9.html"
+    path: "/后端/Java/面向对象.html",
+    redirect: "/%E5%90%8E%E7%AB%AF/Java/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1.html"
   },
   {
     name: "v-fa51cd3c",

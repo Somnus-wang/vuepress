@@ -94,6 +94,16 @@ module.exports = {
             ]
         },
     ],
+    "/后端/Shell":[
+        {
+            "title": 'Shell',
+            "collapsable": false,
+            "sidebarDepth": 1,
+            "children": [
+                'Shell入门',
+            ]
+        },
+    ],
     "/面试/JVM":[
         {
             "title": 'JVM',
