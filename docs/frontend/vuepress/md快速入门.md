@@ -1,4 +1,4 @@
-# markdown快速入门（typora）
+# markdown快速入门
 
 ## 1.代码块：
 

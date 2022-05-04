@@ -1,5 +1,0 @@
----
-title:redis
----
-
-## Hello,Redis!

@@ -20,18 +20,18 @@ module.exports = [
     {
         text: '前端',
         items: [
-            { text: 'Vuepress', link: '/前端/Vuepress入门/vuepress快速上手' },
+            { text: 'Vuepress', link: '/frontend/vuepress/' },
         ]
     },
     {
         text: '后端',
         items: [
-            { text: 'Java', link: '/后端/Java/Java中的数组' },
-            { text: '设计模式', link: '/后端/设计模式/单例模式' },
-            { text: 'MySQL', link: '/后端/MySQL/MySQL简介' },
-            { text: 'Redis', link: '/后端/Redis/Redis的数据结构' },
-            { text: 'Web服务器', link: '/后端/Web服务器/Tomcat详解' },
-            { text: 'Shell', link: '/后端/Shell/Shell入门' },
+            { text: 'Java', link: '/backend/Java/Java的变量' },
+            { text: '设计模式', link: '/backend/DesignPatterns/单例模式' },
+            { text: 'MySQL', link: '/backend/MySQL/MySQL简介' },
+            { text: 'Redis', link: '/backend/Redis/Redis的数据结构' },
+            { text: 'Web服务器', link: '/backend/webserver/Tomcat详解' },
+            { text: 'Shell', link: '/backend/Shell/Shell入门' },
         ]
     },
     {
@@ -58,7 +58,17 @@ module.exports = [
         items: [
             { text: 'bilibili', link: 'https://www.bilibili.com/' },
             { text: 'douyu', link: 'https://www.douyu.com/' },
-            { text: 'DOTA2', link: 'https://www.dota2.com/' },
+            { text: 'DOTA2', link: 'https://www.zhuayuya.com/' },
+        ]
+    },
+    {
+        text: '学习资源',
+        items: [
+            { text: 'bilibili', link: 'https://www.bilibili.com/' },
+            { text: '小林coding', link: 'https://xiaolincoding.com/' },
+            { text: '代码随想录', link: 'https://www.programmercarl.com/' },
+            { text: 'git', link: 'https://git-scm.com/about' },
+            { text: '编程自学之路', link: 'https://r2coding.com/#/README' },
         ]
     },
 ]
