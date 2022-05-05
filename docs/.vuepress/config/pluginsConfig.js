@@ -5,7 +5,7 @@ module.exports = {
     '@vuepress/last-updated': {
         transformer: (timestamp) => {
             moment.locale("zh-cn")
-            return moment(timestamp).format("LLLL")
+            return moment(timestamp).format("lll")
         }
     },
     '@vssue/vuepress-plugin-vssue': {
