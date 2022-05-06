@@ -58,19 +58,21 @@ module.exports = [
         items: [
             { text: 'bilibili', link: 'https://www.bilibili.com/' },
             { text: 'douyu', link: 'https://www.douyu.com/' },
+            { text: '抓鱼鸭', link: 'http://zhuayuya.com/' },
         ]
     },
-    {
-        text: '学习资源',
-        items: [
-            { text: '尚硅谷', link: 'https://space.bilibili.com/302417610' },
-            { text: '小林coding', link: 'https://xiaolincoding.com/' },
-            { text: '代码随想录', link: 'https://www.programmercarl.com/' },
-            { text: 'git', link: 'https://git-scm.com/about' },
-            { text: '编程自学之路', link: 'https://r2coding.com/#/README' },
-            { text: 'Github', link: 'https://github.com/' },
-            { text: '光学仿真网站', link: 'https://design.3doptix.com/' },
-            { text: '加速🚀', link: 'http://steampp.net/' },
-        ]
-    },
+    //{
+    //    text: '收藏',
+    //    items: [
+    //        { text: '尚硅谷', link: 'https://space.bilibili.com/302417610' },
+    //       { text: '小林coding', link: 'https://xiaolincoding.com/' },
+    //        { text: '代码随想录', link: 'https://www.programmercarl.com/' },
+    //        { text: 'git', link: 'https://git-scm.com/about' },
+    //        { text: '编程自学之路', link: 'https://r2coding.com/#/README' },
+    //        { text: 'Github', link: 'https://github.com/' },
+    //        { text: '光学仿真网站', link: 'https://design.3doptix.com/' },
+    //        { text: '加速🚀', link: 'http://steampp.net/' },
+    //    ]
+    //},
+    { text: '收藏', link: '/tools/收藏' },
 ]

@@ -59,9 +59,12 @@ module.exports = {
     '/OperationSystem/': [
         '',
     ],
-    '/': [
+    //'/': [
+    //    '',
+    //    'about',
+    //]
+    '/tools/':[
         '',
-        //'README',
-        'about',
+        '收藏',
     ]
 }

@@ -55,65 +55,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1651485172000
     },
     {
-      "title": "设计模式概述",
-      "frontmatter": {},
-      "regularPath": "/backend/DesignPatterns/",
-      "relativePath": "backend/DesignPatterns/README.md",
-      "key": "v-2d0c6c2a",
-      "path": "/backend/DesignPatterns/",
-      "lastUpdated": "2022年5月4日 22:45",
-      "lastUpdatedTimestamp": 1651675528000
-    },
-    {
-      "title": "单例模式",
-      "frontmatter": {},
-      "regularPath": "/backend/DesignPatterns/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html",
-      "relativePath": "backend/DesignPatterns/单例模式.md",
-      "key": "v-4ee6438a",
-      "path": "/backend/DesignPatterns/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html",
-      "lastUpdated": "2022年5月4日 22:45",
-      "lastUpdatedTimestamp": 1651675528000
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/about.html",
-      "relativePath": "about.md",
-      "key": "v-5c3f2240",
-      "path": "/about.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        }
-      ],
-      "lastUpdated": "2022年4月21日 17:59",
-      "lastUpdatedTimestamp": 1650535194000
-    },
-    {
-      "title": "==和equals的区别",
-      "frontmatter": {},
-      "regularPath": "/backend/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html",
-      "relativePath": "backend/Java/==和equals的区别.md",
-      "key": "v-48bc3c18",
-      "path": "/backend/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "==",
-          "slug": ""
-        },
-        {
-          "level": 2,
-          "title": "equals",
-          "slug": "equals"
-        }
-      ],
-      "lastUpdated": "2022年5月4日 22:45",
-      "lastUpdatedTimestamp": 1651675528000
-    },
-    {
       "title": "Java中的数组",
       "frontmatter": {},
       "regularPath": "/backend/Java/Java%E4%B8%AD%E7%9A%84%E6%95%B0%E7%BB%84.html",
@@ -161,6 +102,48 @@ export const siteData = {
       "lastUpdatedTimestamp": 1651675528000
     },
     {
+      "title": "设计模式概述",
+      "frontmatter": {},
+      "regularPath": "/backend/DesignPatterns/",
+      "relativePath": "backend/DesignPatterns/README.md",
+      "key": "v-2d0c6c2a",
+      "path": "/backend/DesignPatterns/",
+      "lastUpdated": "2022年5月4日 22:45",
+      "lastUpdatedTimestamp": 1651675528000
+    },
+    {
+      "title": "单例模式",
+      "frontmatter": {},
+      "regularPath": "/backend/DesignPatterns/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html",
+      "relativePath": "backend/DesignPatterns/单例模式.md",
+      "key": "v-4ee6438a",
+      "path": "/backend/DesignPatterns/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.html",
+      "lastUpdated": "2022年5月4日 22:45",
+      "lastUpdatedTimestamp": 1651675528000
+    },
+    {
+      "title": "==和equals的区别",
+      "frontmatter": {},
+      "regularPath": "/backend/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html",
+      "relativePath": "backend/Java/==和equals的区别.md",
+      "key": "v-48bc3c18",
+      "path": "/backend/Java/==%E5%92%8Cequals%E7%9A%84%E5%8C%BA%E5%88%AB.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "==",
+          "slug": ""
+        },
+        {
+          "level": 2,
+          "title": "equals",
+          "slug": "equals"
+        }
+      ],
+      "lastUpdated": "2022年5月4日 22:45",
+      "lastUpdatedTimestamp": 1651675528000
+    },
+    {
       "title": "多线程",
       "frontmatter": {
         "0": "t",
@@ -195,29 +178,21 @@ export const siteData = {
       "lastUpdatedTimestamp": 1651675528000
     },
     {
-      "title": "Java集合",
-      "frontmatter": {
-        "0": "t",
-        "1": "i",
-        "2": "t",
-        "3": "l",
-        "4": "e",
-        "5": ":",
-        "6": "'",
-        "7": "J",
-        "8": "a",
-        "9": "v",
-        "10": "a",
-        "11": "集",
-        "12": "合",
-        "13": "'"
-      },
-      "regularPath": "/backend/Java/Java%E9%9B%86%E5%90%88.html",
-      "relativePath": "backend/Java/Java集合.md",
-      "key": "v-2f32e772",
-      "path": "/backend/Java/Java%E9%9B%86%E5%90%88.html",
-      "lastUpdated": "2022年5月4日 22:45",
-      "lastUpdatedTimestamp": 1651675528000
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/about.html",
+      "relativePath": "about.md",
+      "key": "v-5c3f2240",
+      "path": "/about.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        }
+      ],
+      "lastUpdated": "2022年4月21日 17:59",
+      "lastUpdatedTimestamp": 1650535194000
     },
     {
       "title": "Java的变量",
@@ -269,6 +244,33 @@ export const siteData = {
           "level": 2,
           "title": "Hello,Java!",
           "slug": "hello-java"
+        }
+      ],
+      "lastUpdated": "2022年5月4日 22:45",
+      "lastUpdatedTimestamp": 1651675528000
+    },
+    {
+      "title": "static关键字",
+      "frontmatter": {},
+      "regularPath": "/backend/Java/static%E5%85%B3%E9%94%AE%E5%AD%97.html",
+      "relativePath": "backend/Java/static关键字.md",
+      "key": "v-2cbadf4e",
+      "path": "/backend/Java/static%E5%85%B3%E9%94%AE%E5%AD%97.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "static的使用",
+          "slug": "static的使用"
+        },
+        {
+          "level": 3,
+          "title": "static修饰属性",
+          "slug": "static修饰属性"
+        },
+        {
+          "level": 3,
+          "title": "static修饰方法",
+          "slug": "static修饰方法"
         }
       ],
       "lastUpdated": "2022年5月4日 22:45",
@@ -347,29 +349,27 @@ export const siteData = {
       "lastUpdatedTimestamp": 1651675528000
     },
     {
-      "title": "static关键字",
-      "frontmatter": {},
-      "regularPath": "/backend/Java/static%E5%85%B3%E9%94%AE%E5%AD%97.html",
-      "relativePath": "backend/Java/static关键字.md",
-      "key": "v-2cbadf4e",
-      "path": "/backend/Java/static%E5%85%B3%E9%94%AE%E5%AD%97.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "static的使用",
-          "slug": "static的使用"
-        },
-        {
-          "level": 3,
-          "title": "static修饰属性",
-          "slug": "static修饰属性"
-        },
-        {
-          "level": 3,
-          "title": "static修饰方法",
-          "slug": "static修饰方法"
-        }
-      ],
+      "title": "Java集合",
+      "frontmatter": {
+        "0": "t",
+        "1": "i",
+        "2": "t",
+        "3": "l",
+        "4": "e",
+        "5": ":",
+        "6": "'",
+        "7": "J",
+        "8": "a",
+        "9": "v",
+        "10": "a",
+        "11": "集",
+        "12": "合",
+        "13": "'"
+      },
+      "regularPath": "/backend/Java/Java%E9%9B%86%E5%90%88.html",
+      "relativePath": "backend/Java/Java集合.md",
+      "key": "v-2f32e772",
+      "path": "/backend/Java/Java%E9%9B%86%E5%90%88.html",
       "lastUpdated": "2022年5月4日 22:45",
       "lastUpdatedTimestamp": 1651675528000
     },
@@ -436,6 +436,16 @@ export const siteData = {
       "lastUpdatedTimestamp": 1651675528000
     },
     {
+      "title": "MySQL数据库概述",
+      "frontmatter": {},
+      "regularPath": "/backend/MySQL/",
+      "relativePath": "backend/MySQL/README.md",
+      "key": "v-1c5f1a85",
+      "path": "/backend/MySQL/",
+      "lastUpdated": "2022年5月4日 22:45",
+      "lastUpdatedTimestamp": 1651675528000
+    },
+    {
       "title": "MySQL",
       "frontmatter": {},
       "regularPath": "/backend/MySQL/MySQL%E7%AE%80%E4%BB%8B.html",
@@ -459,16 +469,6 @@ export const siteData = {
       "relativePath": "backend/Redis/README.md",
       "key": "v-dae45c5a",
       "path": "/backend/Redis/",
-      "lastUpdated": "2022年5月4日 22:45",
-      "lastUpdatedTimestamp": 1651675528000
-    },
-    {
-      "title": "MySQL数据库概述",
-      "frontmatter": {},
-      "regularPath": "/backend/MySQL/",
-      "relativePath": "backend/MySQL/README.md",
-      "key": "v-1c5f1a85",
-      "path": "/backend/MySQL/",
       "lastUpdated": "2022年5月4日 22:45",
       "lastUpdatedTimestamp": 1651675528000
     },
@@ -559,6 +559,68 @@ export const siteData = {
           "level": 3,
           "title": "Shell工具",
           "slug": "shell工具"
+        }
+      ],
+      "lastUpdated": "2022年5月4日 22:45",
+      "lastUpdatedTimestamp": 1651675528000
+    },
+    {
+      "title": "Web服务器概述",
+      "frontmatter": {},
+      "regularPath": "/backend/webserver/",
+      "relativePath": "backend/webserver/README.md",
+      "key": "v-15d7715b",
+      "path": "/backend/webserver/",
+      "lastUpdated": "2022年5月4日 22:45",
+      "lastUpdatedTimestamp": 1651675528000
+    },
+    {
+      "title": "Tomcat详解",
+      "frontmatter": {},
+      "regularPath": "/backend/webserver/Tomcat%E8%AF%A6%E8%A7%A3.html",
+      "relativePath": "backend/webserver/Tomcat详解.md",
+      "key": "v-a0fb218a",
+      "path": "/backend/webserver/Tomcat%E8%AF%A6%E8%A7%A3.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Tomcat基础",
+          "slug": "tomcat基础"
+        },
+        {
+          "level": 3,
+          "title": "web概念",
+          "slug": "web概念"
+        },
+        {
+          "level": 2,
+          "title": "Tomcat架构",
+          "slug": "tomcat架构"
+        },
+        {
+          "level": 3,
+          "title": "Servlet容器工作流程",
+          "slug": "servlet容器工作流程"
+        },
+        {
+          "level": 3,
+          "title": "Tomcat整体架构",
+          "slug": "tomcat整体架构"
+        },
+        {
+          "level": 3,
+          "title": "连接器-Coyote",
+          "slug": "连接器-coyote"
+        },
+        {
+          "level": 3,
+          "title": "容器-Catalina",
+          "slug": "容器-catalina"
+        },
+        {
+          "level": 2,
+          "title": "Tomcat的启动流程",
+          "slug": "tomcat的启动流程"
         }
       ],
       "lastUpdated": "2022年5月4日 22:45",
@@ -662,68 +724,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650535194000
     },
     {
-      "title": "Tomcat详解",
-      "frontmatter": {},
-      "regularPath": "/backend/webserver/Tomcat%E8%AF%A6%E8%A7%A3.html",
-      "relativePath": "backend/webserver/Tomcat详解.md",
-      "key": "v-a0fb218a",
-      "path": "/backend/webserver/Tomcat%E8%AF%A6%E8%A7%A3.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Tomcat基础",
-          "slug": "tomcat基础"
-        },
-        {
-          "level": 3,
-          "title": "web概念",
-          "slug": "web概念"
-        },
-        {
-          "level": 2,
-          "title": "Tomcat架构",
-          "slug": "tomcat架构"
-        },
-        {
-          "level": 3,
-          "title": "Servlet容器工作流程",
-          "slug": "servlet容器工作流程"
-        },
-        {
-          "level": 3,
-          "title": "Tomcat整体架构",
-          "slug": "tomcat整体架构"
-        },
-        {
-          "level": 3,
-          "title": "连接器-Coyote",
-          "slug": "连接器-coyote"
-        },
-        {
-          "level": 3,
-          "title": "容器-Catalina",
-          "slug": "容器-catalina"
-        },
-        {
-          "level": 2,
-          "title": "Tomcat的启动流程",
-          "slug": "tomcat的启动流程"
-        }
-      ],
-      "lastUpdated": "2022年5月4日 22:45",
-      "lastUpdatedTimestamp": 1651675528000
-    },
-    {
-      "title": "Web服务器概述",
-      "frontmatter": {},
-      "regularPath": "/backend/webserver/",
-      "relativePath": "backend/webserver/README.md",
-      "key": "v-15d7715b",
-      "path": "/backend/webserver/",
-      "lastUpdated": "2022年5月4日 22:45",
-      "lastUpdatedTimestamp": 1651675528000
-    },
-    {
       "title": "Docker概述",
       "frontmatter": {},
       "regularPath": "/cloudnative/docker/",
@@ -772,6 +772,23 @@ export const siteData = {
           "level": 2,
           "title": "HTTP请求的Referrer-Policy字段",
           "slug": "http请求的referrer-policy字段"
+        }
+      ],
+      "lastUpdated": "2022年5月4日 22:45",
+      "lastUpdatedTimestamp": 1651675528000
+    },
+    {
+      "title": "Vuepress快速入门",
+      "frontmatter": {},
+      "regularPath": "/frontend/vuepress/",
+      "relativePath": "frontend/vuepress/README.md",
+      "key": "v-14f6fb65",
+      "path": "/frontend/vuepress/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "vuepress官网",
+          "slug": "vuepress官网"
         }
       ],
       "lastUpdated": "2022年5月4日 22:45",
@@ -860,23 +877,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1651675528000
     },
     {
-      "title": "Vuepress快速入门",
-      "frontmatter": {},
-      "regularPath": "/frontend/vuepress/",
-      "relativePath": "frontend/vuepress/README.md",
-      "key": "v-14f6fb65",
-      "path": "/frontend/vuepress/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "vuepress官网",
-          "slug": "vuepress官网"
-        }
-      ],
-      "lastUpdated": "2022年5月4日 22:45",
-      "lastUpdatedTimestamp": 1651675528000
-    },
-    {
       "title": "使用docker部署vuepress",
       "frontmatter": {},
       "regularPath": "/frontend/vuepress/%E4%BD%BF%E7%94%A8docker%E9%83%A8%E7%BD%B2vuepress.html",
@@ -897,34 +897,6 @@ export const siteData = {
       ],
       "lastUpdated": "2022年5月4日 22:45",
       "lastUpdatedTimestamp": 1651675528000
-    },
-    {
-      "title": "你好，HTTP!",
-      "frontmatter": {
-        "0": "t",
-        "1": "i",
-        "2": "t",
-        "3": "l",
-        "4": "e",
-        "5": ":",
-        "6": "h",
-        "7": "t",
-        "8": "t",
-        "9": "p"
-      },
-      "regularPath": "/network/http/",
-      "relativePath": "network/http/README.md",
-      "key": "v-103622ea",
-      "path": "/network/http/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "你好，HTTP!",
-          "slug": "你好-http"
-        }
-      ],
-      "lastUpdated": "2022年4月21日 17:59",
-      "lastUpdatedTimestamp": 1650535194000
     },
     {
       "title": "HTTP常见知识点",
@@ -1001,12 +973,40 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "==HTTP/2 存在的问题==",
+          "title": "HTTP/2 存在的问题",
           "slug": "http-2-存在的问题"
         }
       ],
       "lastUpdated": "2022年4月29日 23:20",
       "lastUpdatedTimestamp": 1651245645000
+    },
+    {
+      "title": "你好，HTTP!",
+      "frontmatter": {
+        "0": "t",
+        "1": "i",
+        "2": "t",
+        "3": "l",
+        "4": "e",
+        "5": ":",
+        "6": "h",
+        "7": "t",
+        "8": "t",
+        "9": "p"
+      },
+      "regularPath": "/network/http/",
+      "relativePath": "network/http/README.md",
+      "key": "v-103622ea",
+      "path": "/network/http/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "你好，HTTP!",
+          "slug": "你好-http"
+        }
+      ],
+      "lastUpdated": "2022年4月21日 17:59",
+      "lastUpdatedTimestamp": 1650535194000
     },
     {
       "title": "你好，TCP!",
@@ -1056,6 +1056,44 @@ export const siteData = {
       "path": "/network/tcp/TCP%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3.html",
       "lastUpdated": "2022年5月2日 17:52",
       "lastUpdatedTimestamp": 1651485172000
+    },
+    {
+      "title": "一些实用网站与工具",
+      "frontmatter": {},
+      "regularPath": "/tools/",
+      "relativePath": "tools/README.md",
+      "key": "v-6b6cedb0",
+      "path": "/tools/"
+    },
+    {
+      "title": "收藏",
+      "frontmatter": {},
+      "regularPath": "/tools/%E6%94%B6%E8%97%8F.html",
+      "relativePath": "tools/收藏.md",
+      "key": "v-88a6e1b6",
+      "path": "/tools/%E6%94%B6%E8%97%8F.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "学习网站",
+          "slug": "学习网站"
+        },
+        {
+          "level": 2,
+          "title": "技术社区",
+          "slug": "技术社区"
+        },
+        {
+          "level": 2,
+          "title": "Emoji表情",
+          "slug": "emoji表情"
+        },
+        {
+          "level": 2,
+          "title": "面试刷题",
+          "slug": "面试刷题"
+        }
+      ]
     }
   ],
   "themeConfig": {
@@ -1179,45 +1217,16 @@ export const siteData = {
           {
             "text": "douyu",
             "link": "https://www.douyu.com/"
+          },
+          {
+            "text": "抓鱼鸭",
+            "link": "http://zhuayuya.com/"
           }
         ]
       },
       {
-        "text": "学习资源",
-        "items": [
-          {
-            "text": "尚硅谷",
-            "link": "https://space.bilibili.com/302417610"
-          },
-          {
-            "text": "小林coding",
-            "link": "https://xiaolincoding.com/"
-          },
-          {
-            "text": "代码随想录",
-            "link": "https://www.programmercarl.com/"
-          },
-          {
-            "text": "git",
-            "link": "https://git-scm.com/about"
-          },
-          {
-            "text": "编程自学之路",
-            "link": "https://r2coding.com/#/README"
-          },
-          {
-            "text": "Github",
-            "link": "https://github.com/"
-          },
-          {
-            "text": "光学仿真网站",
-            "link": "https://design.3doptix.com/"
-          },
-          {
-            "text": "加速🚀",
-            "link": "http://steampp.net/"
-          }
-        ]
+        "text": "收藏",
+        "link": "/tools/收藏"
       }
     ],
     "sidebar": {
@@ -1281,9 +1290,9 @@ export const siteData = {
       "/OperationSystem/": [
         ""
       ],
-      "/": [
+      "/tools/": [
         "",
-        "about"
+        "收藏"
       ]
     }
   }
