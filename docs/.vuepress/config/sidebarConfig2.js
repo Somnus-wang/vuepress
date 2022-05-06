@@ -27,7 +27,7 @@ module.exports = {
         '',
         'Shell入门',
     ],
-    '/backend/Web服务器/': [
+    '/backend/webserver/': [
         '',
         'Tomcat详解',
     ],
