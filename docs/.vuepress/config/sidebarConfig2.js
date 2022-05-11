@@ -66,5 +66,6 @@ module.exports = {
     '/tools/':[
         '',
         '收藏',
+        'Linux常用软件安装教程'
     ]
 }

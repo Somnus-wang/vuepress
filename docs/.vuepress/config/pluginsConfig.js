@@ -8,7 +8,7 @@ module.exports = {
             return moment(timestamp).format("lll")
         }
     },
-    '@vssue/vuepress-plugin-vssue': {
+    /* '@vssue/vuepress-plugin-vssue': {
         // 设置 `platform` 而不是 `api`
         platform: 'github-v4',
 
@@ -19,7 +19,7 @@ module.exports = {
         clientSecret: secret.clientSecret,
         locale: 'zh',
         autoCreateIssue: true,
-    },
+    }, */
     '@vuepress/back-to-top': true,
     //"vuepress-plugin-auto-sidebar": {
     //    output:{
