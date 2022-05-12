@@ -44,6 +44,22 @@
 
    ![image-20220510161753706](https://gitee.com/Somnus-wang/picgo-drawing-bed/raw/master/image-20220510161753706.png)
 
+### yarn安装
+
+```shell
+## 可直接使用npm安装(安装好nodejs后，npm也会被安装)
+npm install yarn -g
+```
+
+### vuepress安装
+
+```shell
+## 使用yarn对vuepress进行全局安装
+yarn global add vuepress
+```
+
+
+
 
 
 ## JDK

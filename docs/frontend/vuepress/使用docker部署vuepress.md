@@ -81,7 +81,7 @@ cd vuepress
 ## 安装项目package.json中依赖项的模块
 npm install  ## 要提前安装Nodejs
 ## 打包项目文件
-vuepress build docs ## 要想使用vuepress命令，需要使用yarn全局安装vuepress
+vuepress build docs ## 要想使用vuepress命令，需要全局安装vuepress。yarn global add vuepress
 ## 打包完成后会生成dist文件夹，将此文件夹复制到与上文中dockerfile所在的目录，-r表示可以移动目录文件
 cp -r /home/docker-project/vuepress/docs/.vuepress/dist /home/docker-project/somnus_vuepress/dist
 ## 随后进入dockerfile所在目录
